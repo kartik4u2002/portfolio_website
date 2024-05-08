@@ -15,7 +15,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Root />}>
           <Route path="/home" element={<App />} />
-          <Route path="/bubble_game" element={<BubbleGame />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Download />} />
           {/* Define more routes as needed */}
         </Route>
       </Routes>

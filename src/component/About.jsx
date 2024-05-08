@@ -3,7 +3,7 @@ import { Outlet, Route } from "react-router-dom";
 
 function About() {
   return (
-    <div className="w-screen h-[30vw] bg-slate-900 flex gap-10 mt-5 justify-center items-center rounded-xl overflow-hidden">
+    <div className="w-screen h-[30vw] bg-slate-900 flex gap-10 mt-5 justify-center items-center rounded-xl overflow-hidden" id="about">
         <div className="w-1/4 bg-zinc-50 h-[20vw] rounded-xl ml-5 flex justify-center items-center overflow-hidden p-5">
           <img
             src="pic.jpg"
