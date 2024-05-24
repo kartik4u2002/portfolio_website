@@ -31,7 +31,7 @@ function Landing() {
   }, []);
 
   useEffect(() => {
-    const lines = ["Hi Recruiter", "I Kartikey Sharma", "A Passionate Web Dev"];
+    const lines = ["Hi Examinar", "I Kartikey Sharma", "A Passionate Web Dev"];
     setTextLines(lines);
   }, []);
 
