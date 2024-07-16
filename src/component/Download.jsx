@@ -6,8 +6,7 @@ function Download() {
     // Replace 'your_resume_file_path' with the actual path of your resume file
     const resumeFilePath = 'new_resume.pdf';
     // Triggering download
-    const link = document.createElement('a');
-    link.href = resumeFilePath;
+    const link = document.createElement('a');    link.href = resumeFilePath;
     link.download = 'new_resume.pdf'; // You can customize the downloaded file name here
     document.body.appendChild(link);
     link.click();
