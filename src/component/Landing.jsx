@@ -77,7 +77,7 @@ function Landing() {
           animate={{ opacity: showVideo ? 1 : 0, y: showVideo ? "0%" : "100%" }}
           transition={{ duration: 0.3, delay: 0.5 }} // Adjust as needed
         >
-          <video src="bgVideo.mp4" className="w-full h-full object-cover" muted loop autoPlay />
+          <video src="/public/image/bgVideo.mp4" className="w-full h-full object-cover" muted loop autoPlay />
         </motion.div>
 
         {/* Text displaced to the left side */}

@@ -14,7 +14,7 @@ function Nav() {
       <div>
         <a href="https://github.com/kartik4u2002?tab=repositories">
           <img
-            src="github.png"
+            src="public/image/github.png"
             alt="github"
             className="sm:w-[50px] lg:w-[40px] hover:bg-white rounded-full"
           />
