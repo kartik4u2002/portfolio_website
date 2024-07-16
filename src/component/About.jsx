@@ -9,7 +9,7 @@ function About() {
     >
       <div className="w-1/4 bg-zinc-50 h-[20vw] rounded-xl ml-5 flex justify-center items-center overflow-hidden p-5">
         <img
-          src="/public/image/pic.jpg"
+          src="/images/pic.jpg"
           alt="profile pic"
           className="rounded-full relative w-70 border-solid border-2 border-black"
         />
